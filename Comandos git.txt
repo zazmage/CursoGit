@@ -45,3 +45,9 @@ git push --tags: Sube a github las tags del proyecto
 
 git clone <url del proyecto en github>: Clona los archivos del
 proyecto en la carpeta seleccionada de la computadora
+
+git branch javascript: Crea una nueva Rama o Branch con un nombre
+determinado
+
+git checkout javascript: Selecciona el branch sobre el que se quiere
+trabajar
