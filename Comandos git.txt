@@ -1,0 +1,42 @@
+git init: inicia un repositorio en la carpeta seleccionada
+
+git status -s: Nos da un listado de archivos y directorios
+en la carpeta del proyecto
+
+git add: Inicia un seguimiento de un archivo seleccionado
+y lo envía al staging area (Área de ensayo)
+
+git commit -m "descripción": Crea una copia instantanea en 
+el repositorio local
+
+Crear usuario e imail git:
+git config --global user.email "daniel.zapata.682@gmail.com"
+git config --global user.name "daniel"
+
+git log --oneline: Nos da un listado de todas las copias con
+el código correspondiente y la descripción
+
+git reset --hard <código de la instantánea>: Restaura el archivo a la
+instantanea seleccionada según el código dado
+
+git add . : Agregar al staging area todos los archivos en nuestro
+proyecto
+
+git commit -am "descripcion": Agrega al staging area y hace un 
+commit a la vez a todos los archivos del proyecto
+
+git commit --amend: Abre un editor vim para modificar un archivo
+de texto.
+	-> :i Habilita la edición en el editor vim
+	-> :wq Sale del editor
+
+Subir a github un repositorio existente:
+git remote add origin https://github.com/zazmage/CursoGit.git
+git branch -M main: Login con usuario y contraseña de github
+git push -u origin main: Sube el proyecto a github
+
+git pull: Descarga la última versión del proyecto almacenado en
+github
+
+git tag 21-12-20v1 -m "Versión 1 del proyecto": Crea una etiqueta
+indicativa de la versión en la que se encuentra el proyecto
