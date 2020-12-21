@@ -51,5 +51,8 @@ determinado
 
 git checkout javascript: Selecciona el branch sobre el que se quiere
 trabajar
+<<<<<<< HEAD
 
 git merge javascript: Combina los branch o ramas en una sola rama
+=======
+>>>>>>> javascript
