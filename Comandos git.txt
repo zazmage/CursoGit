@@ -41,7 +41,7 @@ github
 git tag 21-12-20v1 -m "Versión 1 del proyecto": Crea una etiqueta
 indicativa de la versión en la que se encuentra el proyecto
 
-git pull --tags: Sube a github las tags del proyecto
+git push --tags: Sube a github las tags del proyecto
 
 git clone <url del proyecto en github>: Clona los archivos del
 proyecto en la carpeta seleccionada de la computadora
